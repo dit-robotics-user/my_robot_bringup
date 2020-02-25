@@ -1,5 +1,7 @@
 # 在開機時自動roslaunch的方法
 
+* 請勿直接clone下來，這樣不會work
+
 1. 安裝robot_upstart
 
     - 輸入指令：`sudo apt-get install ros-melodic-robot-upstart`
@@ -38,3 +40,6 @@
     
     - 以後開機就不會自動roslaunch了
 
+8. 資料來源：
+
+    - https://roboticsbackend.com/make-ros-launch-start-on-boot-with-robot_upstart/
